@@ -18,7 +18,7 @@ export default class HotColdDisplay extends React.Component  {
             showInfoModal: !this.state.showInfoModal
         });
     }
-
+ 
     render() {
         let modal;
         if (this.state.showInfoModal) {
