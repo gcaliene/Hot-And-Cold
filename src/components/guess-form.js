@@ -1,6 +1,6 @@
 import React from 'react';
 import GuessButton from './guess-button';
-//import './guess-form.css';
+import './css/guess-form.css';
 
 export default class GuessForm extends React.Component {
     onGuess(event) {

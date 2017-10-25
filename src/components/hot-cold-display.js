@@ -3,7 +3,7 @@ import React from 'react';
 import NavButtons from './nav-buttons';
 import Modal from './modal';
 
-import './css/header.css';
+import './css/hot-cold-display.css';
 
 export default class HotColdDisplay extends React.Component  {
     constructor(props) {
@@ -30,7 +30,7 @@ export default class HotColdDisplay extends React.Component  {
                 <NavButtons onInfo={() => this.toggleInfoModal()}
                     onHandleNewGame={this.props.onHandleNewGame} />
                 {modal}
-                <h1>HOT or COLD</h1>
+                <h1 className="hot-or-cold-title">HOT or COLD</h1>
             </header>
         );
     }
