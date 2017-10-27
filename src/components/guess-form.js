@@ -11,6 +11,8 @@ export default class GuessForm extends React.Component {
             this.props.onGuess(value);
         } 
             this.input.value = '';
+            // this.password.va
+            // const password= this.password.value
     }
 
     render() {
@@ -25,9 +27,20 @@ export default class GuessForm extends React.Component {
                     maxLength="3" //can't be more than three characters
                     autoComplete="off" //not necessary but autocomplete is annoying
                     placeholder={Math.round(Math.random() * 100)} //this is nice to have
-                    ref={input => this.input = input} //I'm not entirely sure what ref does
+                    ref={input => this.input = input} //I'm not entirely sure what ref does, a way to grab the input value 
                     required
                 />
+                {/* <input 
+                    type="text" 
+                    name="userGuess" 
+                    id="userGuess"
+                    className="text" 
+                    maxLength="3" //can't be more than three characters
+                    autoComplete="off" //not necessary but autocomplete is annoying
+                    placeholder={Math.round(Math.random() * 100)} //this is nice to have
+                    ref={input => this.password = input} //I'm not entirely sure what ref does, a way to target the input 
+                    required
+                /> */}
                 <GuessButton/>
             </form>
         );
