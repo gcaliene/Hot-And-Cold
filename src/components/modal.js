@@ -23,7 +23,7 @@ export default class Modal extends React.Component {
                             <li>3. You will <strong>get feedback</strong> on how close ("hot") or far ("cold") your guess is.</li>
                         </ul>
                         <p>So, Are you ready?</p>
-                        <a className="close" href="#" onClick={e => this.onClose(e)}>Got It!</a>
+                        <button className="close" href="#" onClick={e => this.onClose(e)}>Got It!</button>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import GuessButton from './guess-button';
+// import GuessButton from './guess-button';
 //import GuessCounterDisplay from './guess-counter-display';
-import GuessInput from './guess-input';
+// import GuessInput from './guess-input';
 import GuessSection from './guess-section';
 import HotColdDisplay from './hot-cold-display';
 import GuessCount from './guess-count';

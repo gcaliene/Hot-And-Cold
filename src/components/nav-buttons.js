@@ -22,14 +22,14 @@ export default class NavButtons extends Component {
             <nav>
                 <ul className="clearfix">
                     <li>
-                        <a className="what" href="#" onClick={e => this.onInfo(e)}>
+                        <button className="what" onClick={e => this.onInfo(e)}>
                             What?
-                        </a>
+                        </button>
                     </li>
                     <li>
-                        <a className="new" href="#" onClick={e => this.onHandleNewGame(e)}>
+                        <button className="new" onClick={e => this.onHandleNewGame(e)}>
                             + New Game
-                        </a>
+                        </button>
                     </li>
                 </ul>
             </nav>
